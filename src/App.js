@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
 import Pokedex from './components/Pokedex';
+import Data from './data';
 
 function App() {
   return (
-    // <h1> Exercise - Pokedex</h1>
-    <Pokedex />
+    <main>
+      <h1> Exercise - Pokedex</h1>
+      <Pokedex pokemonList={ Data } />
+    </main>
 
   );
 }
