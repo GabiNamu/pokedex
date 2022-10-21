@@ -6,10 +6,12 @@ class Pokemon extends Component {
     const { pokemon: { name, type, averageWeight, image } } = this.props;
     return (
       <li>
-        <div>
-          <p>{ name }</p>
-          <p>{ type }</p>
-          <p>{ `${averageWeight.value} ${averageWeight.measurementUnit}`}</p>
+        <div className="card">
+          <div>
+            <p>{ name }</p>
+            <p>{ type }</p>
+            <p>{ `${averageWeight.value} ${averageWeight.measurementUnit}`}</p>
+          </div>
           <img src={ image } alt={ name } />
         </div>
       </li>

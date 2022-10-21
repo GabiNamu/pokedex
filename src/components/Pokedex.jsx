@@ -7,8 +7,8 @@ class Pokedex extends Component {
     const { pokemonList } = this.props;
     return (
       <div>
-        <h1>Pokédex</h1>
-        <ul>
+        <h1 className="title">Pokédex</h1>
+        <ul className="card-container">
           { pokemonList.map((pokemon) => (
             <Pokemon pokemon={ pokemon } key={ pokemon.id } />)) }
         </ul>

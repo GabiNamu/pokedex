@@ -1,3 +1,37 @@
-.App {
+body {
+  background-color: rgb(252, 225, 68);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  background-color: rgba(252, 236, 149, 0.554);
+  border-radius: 30px;
+  box-shadow: -3px 4px 6px rgba(70, 70, 70, 0.877);
+  font-size: 35px;
+  margin: 30px auto;
+  padding: 10px;
   text-align: center;
+  width: 200px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  background-color: rgba(252, 236, 149, 0.674);
+  border-radius: 30px;
+  box-shadow: -3px 4px 6px rgba(70, 70, 70, 0.877);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  width: 180px;
 }

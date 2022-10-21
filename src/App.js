@@ -6,7 +6,7 @@ import Data from './data';
 function App() {
   return (
     <main>
-      <h1> Exercise - Pokedex</h1>
+      {/* <h1> Exercise - Pokedex</h1> */}
       <Pokedex pokemonList={ Data } />
     </main>
 
