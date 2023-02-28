@@ -1,4 +1,4 @@
-# Pokedex 
+# Pokédex 
 ##### this project was made just for study purpose;
 In this exercise a Pokédex was implemented in a simplified way!
 This project has two components:
@@ -8,3 +8,7 @@ This project has two components:
   - pokemon type;
   - Pokémon's average weight, accompanied by the unit of measurement used;
   - Pokemon image.
+  
+<div align="center" display="inline">
+  <img src="./public/img/pokedex.png" alt="store" width="500px" height="350px">
+</div>
