@@ -1,5 +1,5 @@
 # Pokédex 
-##### this project was made just for study purpose;
+##### this project was made just for study purpose.
 In this exercise a Pokédex was implemented in a simplified way!
 This project has two components:
 - Pokedex: This component represents the Pokemon encyclopedia. He receives as input a list of Pokemon to be shown on the screen. For each of these Pokémon received, Pokedex calls the component mentioned below (Pokemon);
