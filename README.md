@@ -12,3 +12,23 @@ This project has two components:
 <div align="center" display="inline">
   <img src="./public/img/pokedex.png" alt="store" width="500px" height="350px">
 </div>
+
+## How to use:
+- First clone the repository into your machine;
+
+```
+ git clone git@github.com:GabiNamu/trybewallet.git
+```
+- After cloning, enter into the repository and install the dependencies;
+
+```
+npm install
+```
+- Then to see in your browser, you just need to do a npm start;
+```
+npm start
+```
+## Main technologies used:
+- React;
+- JavaScript;
+- Css;
