@@ -13,18 +13,24 @@ This project has two components:
   <img src="./public/img/pokedex.png" alt="store" width="500px" height="350px">
 </div>
 
-## How to use:
+## Run Locally:
 - First clone the repository into your machine;
 
 ```
- git clone git@github.com:GabiNamu/trybewallet.git
+git clone git@github.com:GabiNamu/trybewallet.git
 ```
-- After cloning, enter into the repository and install the dependencies;
+- Go to the project directory;
+
+```
+cd trybewallet
+```
+
+- Install dependencies;
 
 ```
 npm install
 ```
-- Then to see in your browser, you just need to do a npm start;
+- Start the server;
 ```
 npm start
 ```
