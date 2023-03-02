@@ -17,12 +17,12 @@ This project has two components:
 - First clone the repository into your machine;
 
 ```
-git clone git@github.com:GabiNamu/trybewallet.git
+git clone git@github.com:GabiNamu/pokedex.git
 ```
 - Go to the project directory;
 
 ```
-cd trybewallet
+cd pokedex
 ```
 
 - Install dependencies;
